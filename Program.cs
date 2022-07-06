@@ -16,18 +16,18 @@ namespace DatingProfile
             Profile chuck = new Profile("Chuck Norris", 81, "New York", "USA", adjectives: "strong/powerful");
 
             sam.SetHobbies(new string[] {
-        "Football",
-        "Kickboxing",
-        "Cricket",
-        "Golf"
-      });
+                "Football",
+                "Kickboxing",
+                "Cricket",
+                "Golf"
+            });
 
             chuck.SetHobbies(new string[] {
-        "listening to audiobooks and podcasts",
-        "playing rec sports like bowling and kickball",
-        "writing a speculative fiction novel",
-        "reading advice columns"
-      });
+                "listening to audiobooks and podcasts",
+                "playing rec sports like bowling and kickball",
+                "writing a speculative fiction novel",
+                "reading advice columns"
+            });
 
             // Q8
             Console.WriteLine(lisa.ViewProfile());
